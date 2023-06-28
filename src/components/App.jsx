@@ -1,3 +1,6 @@
+const API_KEY = '13ad78b66804523865aeb0ffdb1d8c9f';
+
+
 export const App = () => {
   return (
     <div
