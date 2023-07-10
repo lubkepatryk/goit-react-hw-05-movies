@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import PropTypes from 'prop-types';
-
 import ListMovies from '../components/ListMovies/ListMovies';
 import { getMovies } from '../API';
 

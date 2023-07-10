@@ -1,6 +1,5 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-
 import { ReviewStyled } from './Reviews.styled';
 import PropTypes from 'prop-types';
 import { getReview } from '../../API';

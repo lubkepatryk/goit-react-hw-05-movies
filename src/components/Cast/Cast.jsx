@@ -1,9 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-
 import PropTypes from 'prop-types';
 import { CastStyled } from './Cast.styled';
-
 import { getCast } from '../../API';
 import Poster from '../Poster';
 
@@ -25,7 +23,6 @@ function Cast() {
               <li className="thumb-cast" key={cast_id}>
                 <p>{name || 'none'}</p>
                 <Poster width={100} url={profile_path} alt={name}></Poster>
-                
                 <p>Character: {character || 'none'}</p>
               </li>
             ))

@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-
 import ListMovies from '../components/ListMovies/ListMovies';
 import { getTrends } from '../API';
 

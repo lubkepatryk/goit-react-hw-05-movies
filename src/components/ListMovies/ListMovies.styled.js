@@ -7,7 +7,4 @@ export const Ul = styled.ul`
   a {
     cursor: pointer;
   }
-    input {
-    width: 100px;
-  }
 `;
